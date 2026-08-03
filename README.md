@@ -32,18 +32,18 @@ achievable skill for forecasts initialised before May.
 
 ## Figures
 
-![Causal graphs under three specifications](figures/causal_graphs.png)
+![Causal graphs under three specifications](causal_graphs.png)
 
 Causal structure estimated under three specifications: the raw series, the detrended series, and
 the raw series with an explicit forcing node. Only links appearing in all three are carried into
 the modelling stage.
 
-![Out of sample forecast and observed against predicted](figures/forecast.png)
+![Out of sample forecast and observed against predicted](forecast.png)
 
 Left: out of sample probabilistic forecast under expanding window cross validation, with the naive
 reference shown for comparison. Right: observed against predicted for the best configuration.
 
-![Shapley attribution](figures/shap_summary.png)
+![Shapley attribution](shap_summary%20%284%29.png)
 
 Shapley decomposition of the fitted model. Attribution describes the fitted relationship and is not
 an estimate of predictive skill.
@@ -87,7 +87,7 @@ residuals, with empirical coverage reported against nominal rather than assumed.
 
 ```bash
 pip install cdsapi tigramite shap netcdf4 h5netcdf scikit-learn statsmodels xarray
-export CDSAPI_KEY="your-key"      # or set CDS_API_KEY in Kaggle Secrets
+export CDSAPI_KEY="your key"      # or set CDS_API_KEY in Kaggle Secrets
 jupyter notebook arctic_sea_ice_causal_ml.ipynb
 ```
 
@@ -137,7 +137,7 @@ LPCMCI relaxes this and would test the robustness of the estimated graph.
 
 Fetterer, F., Knowles, K., Meier, W. N., Savoie, M., Windnagel, A. K. and Stafford, T. (2025).
 Sea Ice Index (G02135, Version 4) [Data Set]. Boulder, Colorado USA. National Snow and Ice Data
-Center. https://doi.org/10.7265/a98x-0f50
+Center. https://doi.org/10.7265/a98x0f50
 
 Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horanyi, A., Munoz Sabater, J., Nicolas, J.,
 Peubey, C., Radu, R., Schepers, D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G.,
