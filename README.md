@@ -131,6 +131,13 @@ contemporaneous relationships.
 **Latent confounders.** PCMCI assumes causal sufficiency, that all common causes are observed.
 LPCMCI relaxes this and would test the robustness of the estimated graph.
 
+A follow up project tests this directly, building a small graph neural network over
+these same four regions instead of averaging them, using this project's own real
+regional data. Measured against a Naive Baseline it looks strong, but measured
+against the trend and persistence reference used throughout this project, it does
+not win, consistent with everything else found here. Full project here:
+[Arctic-Sea-Ice-Regional-GNN](https://github.com/Shweta-Portfolio/Arctic-Sea-Ice-Regional-GNN).
+
 ## References
 
 ### Data
